@@ -1,3 +1,4 @@
+from __future__ import division
 import configparser
 import subprocess
 import sys
@@ -7,7 +8,6 @@ from getpass import getuser
 from time import time
 from contextlib import closing
 from builtins import input
-from __future__ import division
 try:
     from urllib.request import urlopen
 except ImportError:
